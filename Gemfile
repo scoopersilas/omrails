@@ -19,6 +19,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'bootstrap-sass', '~>2.2.2.0'
   gem 'bootstrap_helper'
+  
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
@@ -30,7 +31,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "country_select", "~> 1.2.0"
-
+gem "paperclip", "~> 3.0"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
