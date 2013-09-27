@@ -1,18 +1,12 @@
-<% if user_signed_in? %>
-<h1> You are logged in </h1>
-<% else %>
-
-<div class ="hero-unit">
-<h2> <center> Rails for Startups </center></h2>
-
-<p> 
-<h5>
+<% unless user_signed_in? %>
+	<div class ="hero-unit">
+	<h2> <center> Rails for Startups </center></h2>
+	<p> 
+	<h5>
 	We are the team to call when you need to bootstrap your startup to create a MVP/Protoype to achieve funding. You will love our work so much you will call us again to build the full live version when you are ready! We are affordable, professional, fun and extremely knowledgeable. When we are not helping startups, we like to design fun cool websites for anyone who wants them!
-</h5>
-</p>
-
-
-<P> 
+	</h5>
+	</p>
+	<P> 
 <%= link_to "Sign Up Now! ", new_user_registration_path, class: "btn btn-primary btn-large" %>
 
 </P>
