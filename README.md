@@ -3,4 +3,4 @@
 This is the sample application for 
 [*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
 
-by [Shana Silas] (http://bogomeal.com)
+by [Shana Silas] (http://railsforstartups.com)
